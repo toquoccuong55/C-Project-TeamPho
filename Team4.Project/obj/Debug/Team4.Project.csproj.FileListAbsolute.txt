@@ -1,0 +1,11 @@
+E:\Education\PRN292_(C#)\Team4.Project\Team4.Project\Team4.Project\bin\Debug\Team4.Project.exe.config
+D:\Spring2018\C#and.Net\Project\Team4.Project\Team4.Project\Team4.Project\bin\Debug\Team4.Project.exe.config
+D:\Spring2018\C#and.Net\Project\Team4.Project\Team4.Project\Team4.Project\bin\Debug\Team4.Project.exe
+D:\Spring2018\C#and.Net\Project\Team4.Project\Team4.Project\Team4.Project\bin\Debug\Team4.Project.pdb
+D:\Spring2018\C#and.Net\Project\Team4.Project\Team4.Project\Team4.Project\obj\Debug\Team4.Project.csprojResolveAssemblyReference.cache
+D:\Spring2018\C#and.Net\Project\Team4.Project\Team4.Project\Team4.Project\obj\Debug\Team4.Project.Form1.resources
+D:\Spring2018\C#and.Net\Project\Team4.Project\Team4.Project\Team4.Project\obj\Debug\Team4.Project.Properties.Resources.resources
+D:\Spring2018\C#and.Net\Project\Team4.Project\Team4.Project\Team4.Project\obj\Debug\Team4.Project.csproj.GenerateResource.cache
+D:\Spring2018\C#and.Net\Project\Team4.Project\Team4.Project\Team4.Project\obj\Debug\Team4.Project.csproj.CoreCompileInputs.cache
+D:\Spring2018\C#and.Net\Project\Team4.Project\Team4.Project\Team4.Project\obj\Debug\Team4.Project.exe
+D:\Spring2018\C#and.Net\Project\Team4.Project\Team4.Project\Team4.Project\obj\Debug\Team4.Project.pdb
