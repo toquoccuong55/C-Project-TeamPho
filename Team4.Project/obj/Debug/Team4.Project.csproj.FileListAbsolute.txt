@@ -9,3 +9,12 @@ D:\Spring2018\C#and.Net\Project\Team4.Project\Team4.Project\Team4.Project\obj\De
 D:\Spring2018\C#and.Net\Project\Team4.Project\Team4.Project\Team4.Project\obj\Debug\Team4.Project.csproj.CoreCompileInputs.cache
 D:\Spring2018\C#and.Net\Project\Team4.Project\Team4.Project\Team4.Project\obj\Debug\Team4.Project.exe
 D:\Spring2018\C#and.Net\Project\Team4.Project\Team4.Project\Team4.Project\obj\Debug\Team4.Project.pdb
+D:\p-c#\C-Project-TeamPho\Team4.Project\bin\Debug\Team4.Project.exe.config
+D:\p-c#\C-Project-TeamPho\Team4.Project\obj\Debug\Team4.Project.exe
+D:\p-c#\C-Project-TeamPho\Team4.Project\obj\Debug\Team4.Project.pdb
+D:\p-c#\C-Project-TeamPho\Team4.Project\obj\Debug\Team4.Project.csprojResolveAssemblyReference.cache
+D:\p-c#\C-Project-TeamPho\Team4.Project\obj\Debug\Team4.Project.Form1.resources
+D:\p-c#\C-Project-TeamPho\Team4.Project\obj\Debug\Team4.Project.Properties.Resources.resources
+D:\p-c#\C-Project-TeamPho\Team4.Project\obj\Debug\Team4.Project.csproj.GenerateResource.Cache
+D:\p-c#\C-Project-TeamPho\Team4.Project\bin\Debug\Team4.Project.exe
+D:\p-c#\C-Project-TeamPho\Team4.Project\bin\Debug\Team4.Project.pdb

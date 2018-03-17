@@ -56,14 +56,15 @@ namespace Team4.Project.DAOs
             {
                 con = MyConnection.GetMyConnection();
                 con.Open();
-                string sql = "Select TEN, MAKH from SVIEN where MASV = @MaSV";
+                string sql = "Select TEN, MAKH, NGAYSINH, GIOITINH from SVIEN where MASV = @MaSV";
                 command = new SqlCommand(sql, con);
                 SqlParameter param = new SqlParameter();
                 command.Parameters.AddWithValue("@MaSV", maSV);
                 dataReader = command.ExecuteReader();                
                 if (dataReader.Read())
                 {
-                    dto = new SinhVienDTO(maSV, dataReader.GetValue(0).ToString(), dataReader.GetValue(1).ToString());
+                    dto = new SinhVienDTO(maSV, dataReader.GetValue(0).ToString(), dataReader.GetValue(1).ToString(),
+                        dataReader.GetValue(3).ToString(), DateTime.Parse(dataReader.GetValue(2).ToString()));
                 }
             }
             finally
@@ -73,7 +74,27 @@ namespace Team4.Project.DAOs
             return dto;
         }
 
-        
+        public int getNumberOfSV()
+        {
+            int number = 0;
+            try
+            {
+                con = MyConnection.GetMyConnection();
+                con.Open();
+                string sql = "select count(MASV) as numbers from SVIEN";
+                command = new SqlCommand(sql, con);
+                dataReader = command.ExecuteReader();
+                if(dataReader.Read())
+                {
+                    number = int.Parse(dataReader.GetValue(0).ToString());
+                }
+            }
+            finally
+            {
+                CloseConnection();
+            }
+            return number;
+        }
 
     }
 }

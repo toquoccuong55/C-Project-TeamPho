@@ -151,13 +151,14 @@
             this.button1.TabIndex = 14;
             this.button1.Text = "Tìm";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dgKetQua
             // 
             this.dgKetQua.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgKetQua.Location = new System.Drawing.Point(11, 16);
             this.dgKetQua.Name = "dgKetQua";
-            this.dgKetQua.Size = new System.Drawing.Size(364, 247);
+            this.dgKetQua.Size = new System.Drawing.Size(344, 247);
             this.dgKetQua.TabIndex = 15;
             // 
             // Form1
