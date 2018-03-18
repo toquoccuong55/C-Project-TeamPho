@@ -1,0 +1,8 @@
+﻿Using sqlserver
+Fix in db.sql
+C:\Program Files\Microsoft SQL Server\MSSQL12.TINLM\MSSQL\DATA\QLSVien.mdf
+C:\Program Files\Microsoft SQL Server\MSSQL12.TINLM\MSSQL\DATA\QLSVien_log.ldf
+Edit path sqlserver in your computer
+
+Requirement team thằng khác, coi tham khảo
+Requirement còn thiếu bổ sung thêm
