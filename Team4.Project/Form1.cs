@@ -26,6 +26,7 @@ namespace Team4.Project
             SinhVienDAO sinhVienDAO = new SinhVienDAO();
             cbMaSV.DataSource = sinhVienDAO.GetAllStudentID();
             loadData();
+            
 
         }
 
@@ -42,25 +43,31 @@ namespace Team4.Project
 
         private void loadData()
         {
-            int MaSV = 2;
-
+            SinhVienDAO dao = new SinhVienDAO();
+            // lấy mã sinh viên của thằng đầu tiên
+            int maSVDau = dao.getFirstMaSV();
+            int MaSV = maSVDau;
+            //case người dùng nhập chữ vào cbo
             try
             {
                 MaSV = int.Parse(cbMaSV.Text);
             }
-            catch (Exception)
+            catch
             {
-                return;
-            }
-             
+                MessageBox.Show("Mã số sinh viên không có kí tự");
+                cbMaSV.Text = maSVDau.ToString();
+                loadData();                
+            }             
             
-            SinhVienDAO dao = new SinhVienDAO();
+            
             SinhVienDTO dto = dao.GetInforSV(MaSV);
+            //case người dùng nhập ma sv không nằm trong danh sách
             if(dto == null)
-            {
-                MaSV = 2;
+            {                
+                MessageBox.Show("Mã số sinh viên " + MaSV +" không tồn tại");
+                MaSV = maSVDau;
                 dto = dao.GetInforSV(MaSV);
-                cbMaSV.Text = "2";
+                cbMaSV.Text = maSVDau.ToString();
             }
             //tách họ tên của sinh viên
             string hoTenSinh = dto.TenSV;

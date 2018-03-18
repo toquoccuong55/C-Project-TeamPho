@@ -156,6 +156,7 @@
             // dgKetQua
             // 
             this.dgKetQua.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgKetQua.Enabled = false;
             this.dgKetQua.Location = new System.Drawing.Point(11, 16);
             this.dgKetQua.Name = "dgKetQua";
             this.dgKetQua.Size = new System.Drawing.Size(344, 247);

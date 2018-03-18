@@ -74,14 +74,14 @@ namespace Team4.Project.DAOs
             return dto;
         }
 
-        public int getNumberOfSV()
+        public int getFirstMaSV()
         {
             int number = 0;
             try
             {
                 con = MyConnection.GetMyConnection();
                 con.Open();
-                string sql = "select count(MASV) as numbers from SVIEN";
+                string sql = "select min(MASV) as firstMaSV from SVIEN";
                 command = new SqlCommand(sql, con);
                 dataReader = command.ExecuteReader();
                 if(dataReader.Read())
